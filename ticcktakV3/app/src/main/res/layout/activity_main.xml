@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:padding="10dp"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:columnCount="3"
+        android:rowCount="3"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+>
+
+
+
+
+
+        <Button
+            android:id="@+id/bt1"
+            android:onClick="Check"
+            android:soundEffectsEnabled="false"
+
+
+            android:backgroundTint="#25350505"/>
+
+
+        <Button
+            android:id="@+id/bt2"
+            android:layout_marginLeft="15dp"
+            android:backgroundTint="#25350505"
+            android:soundEffectsEnabled="false"
+            android:onClick="Check" />
+
+        <Button
+            android:id="@+id/bt3"
+            android:layout_marginLeft="15dp"
+            android:backgroundTint="#25350505"
+            android:soundEffectsEnabled="false"
+            android:onClick="Check" />
+
+        <Button
+            android:id="@+id/bt4"
+            android:backgroundTint="#25350505"
+            android:soundEffectsEnabled="false"
+            android:onClick="Check" />
+
+        <Button
+            android:id="@+id/bt5"
+            android:backgroundTint="#25350505"
+            android:layout_marginLeft="15dp"
+            android:soundEffectsEnabled="false"
+            android:onClick="Check" />
+
+        <Button
+            android:id="@+id/bt6"
+            android:backgroundTint="#25350505"
+            android:layout_marginLeft="15dp"
+            android:soundEffectsEnabled="false"
+            android:onClick="Check" />
+
+        <Button
+            android:id="@+id/bt7"
+            android:backgroundTint="#25350505"
+            android:soundEffectsEnabled="false"
+            android:onClick="Check" />
+
+        <Button
+            android:id="@+id/bt8"
+            android:backgroundTint="#25350505"
+            android:layout_marginLeft="15dp"
+            android:soundEffectsEnabled="false"
+            android:onClick="Check" />
+
+        <Button
+            android:id="@+id/bt9"
+            android:backgroundTint="#25350505"
+            android:layout_marginLeft="15dp"
+            android:soundEffectsEnabled="false"
+            android:onClick="Check" />
+
+
+    </GridLayout>
+
+    <GridLayout
+
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:columnCount="1"
+        android:orientation="vertical"
+        android:rowCount="5">
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:textColor="#121111"
+            android:background="#11020202"
+            android:text="score of X is 0"
+            android:id="@+id/dis_x"
+            android:layout_marginBottom="10dp"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:layout_gravity="center"
+            android:background="#11020202"
+            android:textColor="@color/black"
+            android:text="score of O is 0"
+            android:textSize="20dp"
+            android:id="@+id/dis_o"
+            android:layout_marginBottom="100dp"/>
+
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/rst"
+            android:textColor="#fff"
+            android:backgroundTint="#612C2B2B"
+            android:gravity="center"
+            android:onClick="Check"
+            android:soundEffectsEnabled="false"
+            android:text="RESET GAME" />
+
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/rst_sc"
+            android:textColor="#fff"
+            android:backgroundTint="#612C2B2B"
+            android:gravity="center"
+            android:onClick="Check"
+            android:soundEffectsEnabled="false"
+            android:text="RESET BOARD" />
+
+    </GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:gravity="bottom"
+        android:text="Made By- \n Ravi Kumar \n Priyanshu Tiwari \n vaibhav kumar "
+        android:textColor="#8D000000"
+
+        android:layout_gravity="center_horizontal"
+        tools:ignore="RtlCompat" />
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="1"
+        android:columnCount="2"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:src="@drawable/png"
+            />
+
+        <TextView
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+
+            android:text="ravi_bh5522"
+            android:textAlignment="center"
+            android:textColor="#fff"
+
+            />
+    </GridLayout>
+
+</LinearLayout>
